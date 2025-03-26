@@ -11,3 +11,6 @@ resource "aws_instance" "one" {
   }
 }
 
+resource "aws_s3_bucket" "two" {
+  bucket     = "terraformbucketabcd123dggfefgiwque"
+}
